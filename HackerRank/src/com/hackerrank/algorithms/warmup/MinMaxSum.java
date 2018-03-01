@@ -18,7 +18,7 @@ public class MinMaxSum {
         long[] sumArray = new long[5];
         long[] longArray = new long[5];
         int index =0;
-        for(int number : arr){
+		for (int number = 0; number < 5; number++) {
           longArray[index++] = number;
         }
         sumArray[0] = longArray[1] + longArray[2] + longArray[3] + longArray[4];
