@@ -43,7 +43,7 @@ public class AppleAndOrange {
 			}
 		}	
 		System.out.println(appleCount);
-		System.out.println(appleCount);
+		System.out.println(orangeCount);
 
 	}
 }
